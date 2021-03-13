@@ -1,0 +1,5 @@
+# I use windows terminal to run my code, since I am not so sure how to use make in this enviromen, below is the way I run my code
+PS C:\Users\Hazel\Desktop\CheckPoint\4\106072237-ppc4> sdcc -c test3threads.c
+PS C:\Users\Hazel\Desktop\CheckPoint\4\106072237-ppc4> sdcc -c preemptive.c
+preemptive.c:72: warning 85: in function ThreadCreate unreferenced function argument : 'fp'
+PS C:\Users\Hazel\Desktop\CheckPoint\4\106072237-ppc4> sdcc -o test3threads.hex test3threads.rel preemptive.rel
